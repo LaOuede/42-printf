@@ -6,7 +6,7 @@
 /*   By: gle-roux <gle-roux@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/15 08:06:22 by gle-roux          #+#    #+#             */
-/*   Updated: 2022/11/18 12:15:49 by gle-roux         ###   ########.fr       */
+/*   Updated: 2022/11/22 12:00:28 by gle-roux         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,11 +14,9 @@
 
 int	ft_str_type(va_list arg)
 {
-	int		i;
 	int		len;
 	char	*str;
 
-	i = 0;
 	str = va_arg(arg, char *);
 	len = ft_strlen(str);
 	if (!str)
@@ -83,4 +81,3 @@ int	ft_hex_type(va_list arg, const char low_up)
 	ft_puthex(nb, low_up);
 	return (len);
 }
-
