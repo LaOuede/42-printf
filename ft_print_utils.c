@@ -1,14 +1,21 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_put.c                                           :+:      :+:    :+:   */
+/*   ft_print_utils.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: gle-roux <gle-roux@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/15 08:06:22 by gle-roux          #+#    #+#             */
-/*   Updated: 2022/11/22 11:53:38 by gle-roux         ###   ########.fr       */
+/*   Updated: 2022/11/24 08:42:52 by gle-roux         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*ft_print_utils
+int		ft_putchar(char c)
+void	ft_putstr(char *str)
+void	ft_putnbr(long n)
+void	ft_putptr(uintptr_t ptr)
+void	ft_puthex(unsigned int nb, const char low_up)*/
 
 #include "ft_printf.h"
 
@@ -60,7 +67,7 @@ void	ft_putptr(uintptr_t ptr)
 	else
 	{
 		if (ptr <= 9)
-			ft_putchar(ptr + '0');
+			ft_putchar(ptr + 48);
 		else
 			ft_putchar(ptr - 10 + 'a');
 	}
@@ -76,7 +83,7 @@ void	ft_puthex(unsigned int nb, const char low_up)
 	else
 	{
 		if (nb <= 9)
-			ft_putchar(nb + '0');
+			ft_putchar(nb + 48);
 		else
 		{
 			if (low_up == 'x')

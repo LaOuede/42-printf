@@ -6,9 +6,15 @@
 /*   By: gle-roux <gle-roux@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/19 10:59:40 by gle-roux          #+#    #+#             */
-/*   Updated: 2022/11/17 13:52:55 by gle-roux         ###   ########.fr       */
+/*   Updated: 2022/11/24 08:04:45 by gle-roux         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*ft_len
+int		ft_ptrlen(uintptr_t ptr)
+int		ft_numlen(long n)
+int		ft_strlen(const char *s)
+int		ft_hexlen(long n)*/
 
 #include "ft_printf.h"
 

@@ -6,7 +6,7 @@
 #    By: gle-roux <gle-roux@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/10/26 12:57:00 by gle-roux          #+#    #+#              #
-#    Updated: 2022/11/22 11:46:13 by gle-roux         ###   ########.fr        #
+#    Updated: 2022/11/24 08:48:15 by gle-roux         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -26,7 +26,7 @@ ARCH	=	ar rcs
 NAME		=	libftprintf.a
 SRCS		=	ft_len.c \
 				ft_printf.c \
-				ft_put.c \
+				ft_print_utils.c \
 				ft_type.c
 OBJS		=	$(SRCS:.c=.o)
 

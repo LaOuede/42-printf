@@ -6,7 +6,7 @@
 /*   By: gle-roux <gle-roux@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/15 08:06:22 by gle-roux          #+#    #+#             */
-/*   Updated: 2022/11/22 11:58:38 by gle-roux         ###   ########.fr       */
+/*   Updated: 2022/11/24 08:07:51 by gle-roux         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,7 +44,7 @@ Implement the following conversions:
 
 #include "ft_printf.h"
 
-static int	ft_search_arg_type(va_list arg, char c)
+static int	ft_arg_type(va_list arg, char c)
 {
 	if (c == 'c')
 		return (ft_putchar(va_arg(arg, int)));
@@ -78,7 +78,7 @@ int	ft_printf(const char *format, ...)
 	{
 		if (format[i] == '%')
 		{
-			len += ft_search_arg_type(arg, format[i + 1]);
+			len += ft_arg_type(arg, format[i + 1]);
 			i++;
 		}
 		else
