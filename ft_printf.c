@@ -6,9 +6,11 @@
 /*   By: gle-roux <gle-roux@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/15 08:06:22 by gle-roux          #+#    #+#             */
-/*   Updated: 2022/11/24 08:07:51 by gle-roux         ###   ########.fr       */
+/*   Updated: 2022/11/25 07:29:13 by gle-roux         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "ft_printf.h"
 
 /*
 Description :
@@ -41,8 +43,6 @@ Implement the following conversions:
 	base 16 hex number SHIFT` %% - Displays a percentage sign
 	%% - Displays a percent sign `%`.
 */
-
-#include "ft_printf.h"
 
 static int	ft_arg_type(va_list arg, char c)
 {

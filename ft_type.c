@@ -6,9 +6,11 @@
 /*   By: gle-roux <gle-roux@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/15 08:06:22 by gle-roux          #+#    #+#             */
-/*   Updated: 2022/11/24 08:03:57 by gle-roux         ###   ########.fr       */
+/*   Updated: 2022/11/25 07:29:36 by gle-roux         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "ft_printf.h"
 
 /*ft_type
 int		ft_str_type(va_list args)
@@ -16,8 +18,6 @@ int		ft_int_type(va_list args)
 int		ft_ptr_type(va_list args)
 int		ft_unsigned_type(va_list args)
 int		ft_hex_type(va_list arg, const char low_up)*/
-
-#include "ft_printf.h"
 
 int	ft_str_type(va_list arg)
 {

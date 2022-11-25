@@ -6,9 +6,11 @@
 /*   By: gle-roux <gle-roux@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/15 08:06:22 by gle-roux          #+#    #+#             */
-/*   Updated: 2022/11/24 08:42:52 by gle-roux         ###   ########.fr       */
+/*   Updated: 2022/11/25 07:28:30 by gle-roux         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "ft_printf.h"
 
 /*ft_print_utils
 int		ft_putchar(char c)
@@ -16,8 +18,6 @@ void	ft_putstr(char *str)
 void	ft_putnbr(long n)
 void	ft_putptr(uintptr_t ptr)
 void	ft_puthex(unsigned int nb, const char low_up)*/
-
-#include "ft_printf.h"
 
 int	ft_putchar(char c)
 {
