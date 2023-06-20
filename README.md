@@ -22,11 +22,8 @@ Go to [42 Québec](https://42quebec.com/) to discover the course ! 👈
     <th>Format Specifier</th>
     <th>Description</th>
   </tr>
-   </thead>
-  <tbody>
-	  </thead>
-     <tr>
-        <td align="center">%c</td>
+	<tr>
+	<td align="center">%c</td>
         <td>Displays a single character</td>
       </tr>
       <tr>
@@ -61,8 +58,6 @@ Go to [42 Québec](https://42quebec.com/) to discover the course ! 👈
          <td align="center">%%</td>
          <td>Displays a percentage sign</td>
       </tr>
-    </thead>
-  <tbody>
 </table>
 
 
