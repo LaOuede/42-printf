@@ -81,7 +81,6 @@ I've acquired a lot of basic knowledge on C programming :
 
 - I would simplify my code by removing or merging some functions
 - I would implement a ft_putnbr_base function in order to handled all bases with the same function
-- I would implemente the bonuses 🙃
 
 <div align="center">
 
