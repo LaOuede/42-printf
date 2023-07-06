@@ -16,7 +16,7 @@ Go to [42 Québec](https://42quebec.com/) to discover the course ! 👈
 
 ---
 
-<h3 align="left">Conversions implemented</h3>
+<h3 align="left">Conversions implemented ⚙</h3>
 <table>
   <tr>
     <th>Format Specifier</th>
@@ -64,7 +64,7 @@ Go to [42 Québec](https://42quebec.com/) to discover the course ! 👈
 
 ---
 
-<h3 align="left">What I've learned</h3>
+<h3 align="left">What I've learned 📚</h3>
 
 I've acquired a lot of basic knowledge on C programming :
 - String manipulation
@@ -77,7 +77,7 @@ I've acquired a lot of basic knowledge on C programming :
 
 ---
 
-<h3 align="left">If I had to do it all over again</h3>
+<h3 align="left">If I had to do it all over again 🗒</h3>
 
 - I would simplify my code by removing or merging some functions
 - I would implement a ft_putnbr_base function in order to handled all bases with the same function
